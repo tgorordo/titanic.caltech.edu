@@ -190,7 +190,7 @@ LightOSM.total_path_weight(::LightOSM.OSMGraph{U, T, W}, ::Nothing) where {U, T,
 
 # ╔═╡ a868a31f-2cc7-4283-b0e6-27c50f43a3be
 d = let nodes = map(l -> nearest_node(g, l)[1], collect.(df[!,:latlon]))
-	[ total_path_weight(g, shortest_path(g, a, b)) for a=nodes, b=nodes]
+	[total_path_weight(g, shortest_path(g, a, b)) for a=nodes, b=nodes]
 end
 
 # ╔═╡ 63333464-4a87-4b14-9507-57cbcdd3d734
@@ -202,7 +202,8 @@ function build_tsp_model(m)
 	model = Model(GLPK.Optimizer)
 	@variable(model, x[1:n, 1:n], Bin, Symmetric)
 	@objective(model, Min, sum(m .* x) / 2)
-	@constraint(model, [i in 1:n], sum(x[i, :]) == 2)
+	@constraint(model, [i in 1:n], sum(x[i, [j for j in 1:n if j != i]]) == 1)
+	@constraint(model, [j in 1:n], sum(x[[i for i in 1:n if i != j], j]) == 1)
 	@constraint(model, [i in 1:n], x[i, i] == 0.)
 	return model
 end
