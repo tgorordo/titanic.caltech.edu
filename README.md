@@ -1,12 +1,12 @@
 ---
-title: "`tgorordo@titanic.caltech.edu`"
+title: "[`tgorordo@titanic.caltech.edu`](mailto:tgorordo@alumni.caltech.edu)"
+author: Thomas (Tom) C. Gorordo
 ---
-# Tom C. Gorordo
-[I'm an alum who graduated in 2019](https://tom.ket.dev). I was bookie, blouse frosh, and generally did a lot of odd-jobs & stuff. 
+[I'm an alum who graduated in 2019](https://tom.ket.dev). I was bookie, blouse frosh, and generally did a lot of odd-jobs. 
 I was on the Bechtel COUCH committee to figure out what life would look like there - so I'm pretty experienced dealing with admin BS.
-I've talked my way out of a fair amount of trouble with the taco trucks and knew *a lot* about running tours as red or gold.
+I've also talked my way out of a fair amount of trouble with the taco trucks and helped write the book on running tours, especially red and gold protocols.
 
-Crusty af now as you can read - jeez time flies - but a massive sucker if you ever want a hand with your Ditch Day stack or *anything* else.
+Crusty af now - jeez time flies - but a massive sucker if you ever want a hand with your Ditch Day stack or *anything* else.
 
 Here are the things I have on [titanic](https://titanic.caltech.edu):
 
