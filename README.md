@@ -15,12 +15,7 @@ Here are the things I have on [titanic](https://titanic.caltech.edu):
 A discord bot & cli tool to play and solve [lightsout](https://en.wikipedia.org/wiki/Lights_Out_(game)) games, written for
 Ditch Day 2020 as alum help. It was written in a day, so it's pretty hacky but it can manage arbitrary NxN prime-number-colored boards.
 The bot runs from my account on titanic whenever I remember to have it running/restart it and can be played on the γδβall-discord bot interaction channel.
-
-Here's an installation link: 
-
-[`https://discord.com/oauth2/authorize?client_id=1239472456092094494`](https://discord.com/oauth2/authorize?client_id=1239472456092094494)
-
-([source](https://github.com/tgorordo/discordbot-lightsout))
+([source](https://github.com/tgorordo/discord-lightsout))
 
 ## Traveling Tommy's Problem
 Here's a page with a solution to the traveling salesman problem for visiting every
